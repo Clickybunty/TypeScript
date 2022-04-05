@@ -1,0 +1,27 @@
+Type annotations
+
+Arrow functions
+
+Interfaces
+
+Classes
+
+Constructors
+
+Acces modifiers
+
+Properties
+
+Modules
+
+
+
+
+
+function log(message) {
+    console.log(message);
+}
+
+var message = "Hello World";
+
+log(message);
