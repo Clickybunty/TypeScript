@@ -1,4 +1,4 @@
-var message;
-message = 'abc';
-var endsWithC = message.endsWith('c');
-var alternativeWay = message.endsWith('c');
+var log = function (message) {
+    console.log(message);
+};
+var doLog = function (message) { return console.log(message); };
