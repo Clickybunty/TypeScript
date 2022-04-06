@@ -1,3 +1,70 @@
+
+
+//...git --version
+
+//...git config --global user.name "MAX-Mustermann"
+
+//...git config --global user.email "MAX@Musterman.de"
+
+//...mkdir myproject
+
+//...CD myproject 
+
+//...git init
+
+//...git status
+
+//...git add ("File"/--all)  /  git add -A 
+
+//...git commit -m "Beschreibung z.B. Hello World!"
+
+//...git status --short
+
+//...git commit -a -m "Updated index.html with a new line"
+//  Änderungen direkt zu übernehmen und 
+//  die Staging-Umgebung zu überspringen. 
+//  Die -a Option stellt automatisch jede geänderte, 
+//  bereits getrackte Datei bereit.
+
+//...git log    //...Verlauf der Commits für ein Repository anzuzeigen
+
+//...git command -help  /  git help --all
+
+//...git branch name-des-branch 
+
+//...git branch     //...zeigt den aktuellen Branch an
+
+//...git checkout name-des-branch       
+//   wechselt in den angegebene Branch z.B
+//   git checkout master        
+//   Switched to branch 'master'
+
+//...dir 
+
+//...git checkout -b emergency-fix
+//   Switched to a new branch 'emergency-fix'
+//   git checkout master
+//...git merge emergency-fix 
+//   merget den aktuellen Branch 'master' mit emergency-fix zusammen
+//...git branch -d emergency-fix
+//   Deleted branch emergency-fix (was dfa79db).
+
+
+//...git remote add origin https://github.com/PushTo.git
+//   den Link gibt es bei GitHub
+
+//...git push --set-upstream origin master 
+//   Verschieben den Master-Branch auf die URL als Standard-Remote-Branch
+
+//...git fetch origin
+//   Aktualisiert das Lokale Git
+
+//...git log origin/master 
+
+
+
+
+
 -------------------------------------------
 
 function log(message) {
