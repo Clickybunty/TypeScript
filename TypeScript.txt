@@ -64,14 +64,14 @@ let alternativeWay = (message as string).endsWith('c');
 
 -------------------------------------------
 
-//... TypeScript...//
+//...TypeScript...//
 let log = function(message) {
     console.log(message);
 }
 let doLog = (message) => console.log(message);
  
 
-//... JavaScript...//
+//...JavaScript...//
 var log = function (message) {
     console.log(message);
 };
